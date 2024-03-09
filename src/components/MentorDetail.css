@@ -1,0 +1,97 @@
+.mentor-detail {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: teal;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  color: aliceblue;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  color: teal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(8, 117, 117);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: aliceblue;
+  font-weight: bold;
+  color: teal;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 12px auto;
+}
+
+button:hover {
+  background-color: teal;
+  color: white;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 16px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mentor-detail {
+    padding: 10px;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  table {
+    font-size: 14px;
+    border-spacing: 0;
+  }
+
+  th,
+  td {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  th,
+  td {
+    padding: 8px;
+  }
+  button {
+    padding: 8px 16px;
+  }
+  input[type="text"],
+  input[type="number"] {
+    padding: 6px;
+    width: calc(100% - 12px);
+  }
+}

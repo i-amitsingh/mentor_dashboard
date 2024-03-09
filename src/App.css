@@ -1,0 +1,20 @@
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.mentor-list ul,
+.mentor-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mentor-list ul li,
+.mentor-detail ul li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.mentor-detail button {
+  margin-top: 20px;
+}
